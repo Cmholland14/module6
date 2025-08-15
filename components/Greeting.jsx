@@ -1,0 +1,1 @@
+const jsxElement = <h1 className="greeting">Hello World</h1>
