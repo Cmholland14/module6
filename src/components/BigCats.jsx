@@ -26,4 +26,32 @@ function BigCats() {
 
 }
 
+ /* import React, { useState } from 'react';
+
+function AlphabeticalSorter() {
+  const [items, setItems] = useState(['Orange', 'Apple', 'Banana', 'Grape']);
+
+  const sortAlphabetically = () => {
+    // Create a copy to avoid mutating the original state directly
+    const sortedItems = [...items].sort((a, b) => a.localeCompare(b));
+    setItems(sortedItems);
+  };
+
+  return (
+    <div>
+      <h1>Sorted Items</h1>
+      <ul>
+        {items.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+      <button onClick={sortAlphabetically}>Sort Alphabetically</button>
+    </div>
+  );
+}
+
+export default AlphabeticalSorter; //
+
+const [cats]
+
 
